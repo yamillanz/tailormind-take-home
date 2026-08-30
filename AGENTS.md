@@ -25,6 +25,11 @@ Live: https://yamillanz.github.io/tailormind-take-home/
 - Spec-driven: usar los comandos OpenSpec (`/opsx:explore`, `/opsx:propose`, `/opsx:apply`, `/opsx:archive`).
 - Commits pequeños y descriptivos; cada push a `main` despliega a Pages.
 
+## Git rules (obligatorio)
+
+- **El humano decide cuándo hacer commit y cuándo hacer push.** Los agentes NUNCA ejecutan `git commit` ni `git push` por iniciativa propia — solo cuando el humano lo pide de forma explícita.
+- El agente puede proponer: "listo para commit", con mensaje sugerido. La decisión y el momento son del humano.
+
 ## Development
 
 When starting the dev server, use background mode:
