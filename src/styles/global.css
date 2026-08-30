@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/*
+  Design tokens (ver DESIGN.md).
+  Un solo ramp custom: brand (tomate). El resto: stone/amber/green/sky por defecto de Tailwind.
+*/
+@theme {
+  --color-brand-50: #fdf3f3;
+  --color-brand-100: #fce5e5;
+  --color-brand-200: #f9cccc;
+  --color-brand-300: #f2a3a3;
+  --color-brand-400: #ea7171;
+  --color-brand-500: #e63946;
+  --color-brand-600: #c92a37;
+  --color-brand-700: #a4212d;
+  --color-brand-800: #7d1922;
+  --color-brand-900: #5d131a;
+}

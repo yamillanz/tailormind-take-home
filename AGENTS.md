@@ -13,6 +13,8 @@ App de menú de restaurante con carrito. **Leer `PRD.md` primero** — es la fue
 
 Live: https://yamillanz.github.io/tailormind-take-home/
 
+Diseño: **leer `DESIGN.md` antes de crear UI** — paleta (Tailwind v4, tokens en `src/styles/global.css`), colección de componentes (`src/components/`) y estados obligatorios.
+
 ## Hard rules (from PRD.md)
 
 - **No preguntar aclaraciones del spec** — documentar supuestos (README, sección "Supuestos").
