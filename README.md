@@ -54,4 +54,4 @@ Con una hora más, primero añadiría validación de email del lado del cliente 
 - [x] Párrafo: pasos simples para preparar una pizza
 - [x] Párrafo: qué haría con otra hora más
 - [x] Lista de supuestos
-- [ ] `chat.md` — transcripción cruda de la conversación con Claude
+- [x] `chat.md` — transcripción cruda de la conversación con Claude
