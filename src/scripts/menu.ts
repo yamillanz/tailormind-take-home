@@ -49,6 +49,9 @@ async function cargar(container: HTMLElement): Promise<void> {
 				: data.ok
 					? emptyHTML()
 					: errorHTML();
+		if (data.ok) {
+			window.dispatchEvent(new CustomEvent('menu:cargado', { detail: data.items }));
+		}
 	} catch {
 		container.innerHTML = errorHTML();
 	}

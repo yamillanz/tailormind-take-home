@@ -52,8 +52,8 @@ Crear a medida que se implementan los changes OpenSpec; si un componente falta, 
 |------------|-------------------|-----|
 | `Button.astro` | `variant: primary \| secondary \| ghost`, `size: sm \| md` | primary = `bg-brand-500 text-white hover:bg-brand-600`; secondary = `border border-stone-300 bg-white hover:bg-stone-100`; ghost = `text-brand-600 hover:bg-brand-50` |
 | `ProductCard.astro` → `src/scripts/product-card.ts` | `productCardHTML(item)` | Tarjeta del menú (sección 3.2 del PRD). Helper TS client-side: los datos llegan en runtime, no en build. El botón "Agregar" llega con el change `cart` |
-| `QuantityStepper.astro` | `cantidad`, eventos client-side | − / cantidad / + en carrito |
-| `CartSummary.astro` | items + subtotales + total | Resumen lateral/fijo; botón "Enviar orden" (primary) |
+| `QuantityStepper.astro` → `src/scripts/cart-ui.ts` | `cartLineHTML(line, nombres, precios)` | − / cantidad / + (min 1, max 99) dentro de cada línea del carrito, con `aria-label` |
+| `CartSummary.astro` → `src/scripts/cart-ui.ts` | `cartSummaryHTML(lines, nombres, precios)` | Resumen: líneas + subtotales + total (`aria-live="polite"`) y mensaje de vacío. El botón "Enviar orden" llega con `send-order` |
 | `Badge.astro` | `variant: success \| warning \| error` | Estados pequeños (ej. "agotado") |
 | `FieldInput.astro` | `label, name, type` | Inputs de nombre/email en checkout; estilo compartido |
 | `Alert.astro` | `variant: error \| success \| info` | Mensajes de carga/fallo/éxito |
