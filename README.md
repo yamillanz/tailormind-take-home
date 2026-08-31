@@ -24,7 +24,7 @@ npm run build
 npm test
 ```
 
-Apps Script 部署与测试详见 [`apps-script/README.md`](apps-script/README.md)。
+Despliegue y pruebas de Apps Script: ver [`apps-script/README.md`](apps-script/README.md).
 
 ## Cómo preparar una pizza
 
