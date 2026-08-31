@@ -26,4 +26,3 @@
 
 - [x] 4.1 Escribir `apps-script/README.md`: cómo pegar el script, cómo desplegar, cómo republicar versión, cómo probar con curl (GET/POST ejemplos); verificación: instrucciones reproducibles paso a paso
 - [x] 4.2 Redactar los supuestos nacidos de este change (CLP entero, IDs slug, sin stock cuantitativo, POST siempre 200, sheet owner-only, URL público) como lista lista para pegar en README raíz; verificación: lista revisada por el humano
-- [ ] 4.3 Guardar en `chat.md` la transcripción cruda de la sesión de explore/propose de este change (acumulativo, sin pulir); verificación: entradas presentes
