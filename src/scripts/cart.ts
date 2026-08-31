@@ -26,10 +26,23 @@ function persistir(): void {
 }
 
 function render(): void {
-	const container = document.getElementById('cart');
+	const container = document.getElementById('cart-body');
 	if (container) {
 		container.innerHTML = cartSummaryHTML(lines, nombres, precios);
 	}
+	window.dispatchEvent(
+		new CustomEvent('cart:cambio', { detail: { hayLineas: lines.length > 0 } }),
+	);
+}
+
+export function getLines(): CartLine[] {
+	return lines;
+}
+
+export function clearCart(): void {
+	lines = [];
+	persistir();
+	render();
 }
 
 function hidratar(items: MenuItem[]): void {
